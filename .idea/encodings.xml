@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/src/main/java/np/com/mshrestha/uan/Parser/Analyzer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/np/com/mshrestha/uan/Parser/Block.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/np/com/mshrestha/uan/Parser/BoxParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/np/com/mshrestha/uan/Parser/JSONCC.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/np/com/mshrestha/uan/Parser/ReadDocFile.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/np/com/mshrestha/uan/Parser/ReadPdfFile.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/np/com/mshrestha/uan/Parser/SeacrherRegByPh.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/np/com/mshrestha/uan/Parser/SearchBoxParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/np/com/mshrestha/uan/Parser/WordsContent.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/np/com/mshrestha/uan/model/CV.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/np/com/mshrestha/uan/model/Contact.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/np/com/mshrestha/uan/model/Users.java" charset="UTF-8" />
+  </component>
+</project>
