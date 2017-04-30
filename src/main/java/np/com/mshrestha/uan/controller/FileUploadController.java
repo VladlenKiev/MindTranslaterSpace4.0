@@ -94,7 +94,7 @@ public class FileUploadController {
 
     uploadService.createUser(nameSession);
 
-    return "fileUploader";
+    return "/photoAnalyzer";
   }
 
   @RequestMapping(value = "/uploaded", method = RequestMethod.POST) //value = "/upload",
