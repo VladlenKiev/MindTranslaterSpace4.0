@@ -1,4 +1,6 @@
 # MindTranslaterSpace4.0
+![alt text](https://github.com/VladlenKiev/MindTranslaterSpace4.0/blob/master/Mn.jpg)
+
 Machine learning is created by the principle of an induction device. And imagine that we are creating a teacher using 
 a machine that will create a new language. And this language is not for machines, but for people.
 People of all nations, all religions ... universal vague for all ages.
