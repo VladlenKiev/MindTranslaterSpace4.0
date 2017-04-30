@@ -23,7 +23,11 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="springmvc-dropzonejs" />
+        <module name="universe-alert-notification" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="universe-alert-notification" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

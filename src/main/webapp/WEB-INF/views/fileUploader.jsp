@@ -19,7 +19,8 @@
 	<div class="container">
 		<div class="panel panel-default">
 			<div class="panel-heading text-center">
-				<h3>Spring MVC + Dropzone.js Example</h3>
+				<h3>Universe Alert notification</h3>
+				<h4>Based on: Spring MVC + JPA/Hibernate + Dropzone.js</h4>
 			</div>
 			<div class="panel-body">
 				<div>

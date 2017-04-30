@@ -33,15 +33,7 @@ public class CV {
         this.edu = edu;
         this.trainings=trainings;
     }
-    public CV(String skills,String exp, String lang, String edu, Date date, Contact contact,String trainings){
-        this.skills = skills;
-        this.exp = exp;
-        this.lang = lang;
-        this.edu = edu;
-        this.date = date;
-        this.contact = contact;
-        this.trainings=trainings;
-    }
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -50,17 +42,10 @@ public class CV {
         return id;
     }
 
-    //@OneToOne(fetch = FetchType.LAZY, mappedBy = "cves", cascade = CascadeType.ALL) //mappedBy = "cv", cascade = CascadeType.ALL
-    //@JoinColumn(name = "Contact_id")
-    //public Contact getContact() {        return this.contact;    }
-    private Contact contact;
+
 
     //CV has Cont_ID
-    @OneToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "Contact_id")
-    public Contact getContact() {
-        return this.contact;
-    }
+
 
     @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     @JoinColumn(name = "User_id", nullable = true)
@@ -119,7 +104,4 @@ public class CV {
         this.usersByFK = usersByFK;
     }
 
-    public void setContact(Contact contact) {
-        this.contact = contact;
-    }
 }

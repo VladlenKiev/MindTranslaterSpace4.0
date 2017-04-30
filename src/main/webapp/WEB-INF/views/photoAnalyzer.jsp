@@ -18,8 +18,8 @@
 <body>
 <%! static int photoID=1; %>
 <%
-	if (photoID == 10)
-	{photoID=0;}
+	if (photoID == 8)
+	{photoID=1;}
 %>
 
 
@@ -29,14 +29,14 @@
 		<div class="panel panel-default">
 			<div class="panel-heading text-center">
 				<h3>Universe Alert notification</h3>
-				<h4>Based on: Spring MVC + JPA/Hibernate + Dropzone.js</h4>
+				<h4>Based on: Spring MVC + JPA/Hibernate</h4>
 			</div>
 
 			<div class="jpg-dz" <%--style="text-align: center"--%> >
 
 				How it works?
 				<hr>
-				<img src="/web-resources/pictures/parser flow.jpg" style="width: 1120px">
+				<img src="/web-resources/pictures/Mn.jpg" style="width: 1120px">
 			</div>
 
 			<div class="panel-body">
